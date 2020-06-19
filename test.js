@@ -1,0 +1,1 @@
+const db = require('@nicejob-db-test/nicejob-db');

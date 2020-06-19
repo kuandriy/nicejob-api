@@ -1,0 +1,33 @@
+{
+  "name": "nicejob-api",
+  "version": "1.0.0",
+  "description": "Nice Job API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuandriy/nicejob-api.git"
+  },
+  "author": "Andriy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuandriy/nicejob-api/issues"
+  },
+  "homepage": "https://github.com/kuandriy/nicejob-api#readme",
+  "dependencies": {
+    "@nicejob-db-test/nicejob-db": "git+https://github.com/kuandriy/nicejob-db.git",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^25.5.4",
+    "supertest": "^4.0.2"
+  }
+}
